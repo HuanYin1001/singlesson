@@ -1,18 +1,37 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    body {background-color: #efe8db}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; color: #201a13; -webkit-text-stroke: #201a13}
-    span.s1 {font-kerning: none}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>弦吟課程紀錄</title>
+<meta name="apple-mobile-web-app-title" content="弦吟課程紀錄">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#F2ECE2">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<style>
+html,body{margin:0;height:100%;background:#F2ECE2;color:#2B2318;font-family:"Noto Sans TC",system-ui,sans-serif}
+body{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:24px;box-sizing:border-box;text-align:center}
+img{width:96px;height:96px;border-radius:22px}
+p{margin:0;font-size:15px;line-height:1.8}
+a{color:#B45309;font-weight:600}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">－</span></p>
+<img src="apple-touch-icon.png" alt="">
+<p id="msg">開啟中</p>
+<script>
+var APP_URL = 'https://script.google.com/macros/s/AKfycbxOpOtJ0wJqkSWxOUPXOAezfw9XwHxMRyC6tF7D0UcFdsdtQ2HRUGcjzPbpSHlx_wPV/exec';
+
+var standalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+if (standalone || /[?&]go\b/.test(location.search)) {
+  location.replace(APP_URL);
+} else {
+  document.getElementById('msg').innerHTML = '用 Safari 下方的分享按鈕，選「加入主畫面」。<br>之後從主畫面的圖示打開就好。<br><br><a href="' + APP_URL + '">先直接打開</a>';
+}
+</script>
 </body>
 </html>
