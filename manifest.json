@@ -1,0 +1,12 @@
+{
+  "name": "弦吟課程紀錄",
+  "short_name": "弦吟課程紀錄",
+  "start_url": "./?go",
+  "display": "standalone",
+  "background_color": "#F2ECE2",
+  "theme_color": "#F2ECE2",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-540.png", "sizes": "540x540", "type": "image/png", "purpose": "any" }
+  ]
+}
